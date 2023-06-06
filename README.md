@@ -3,11 +3,8 @@
 ## EDA 
 
 ## Classification of Adverse Events
-The files in this ptojct presents the code for the best performing Multinominal Naive Bayes and Support Vector Machine models, as presented in the thesis. 
-The final models are found in files [name] and [name]. The dataset used have been exluded due to privacy and ethical reasons. The results are still shown in the files.  
-
-
-
+The files in this projcet presents the code for the best performing Multinominal Naive Bayes and Support Vector Machine models, as presented in the thesis. 
+The final models are found in files ```final_mnb.ipynb``` and ```final_svm.ipynb```. The dataset used have been exluded due to privacy and ethical reasons. The results are still shown in the files.  
 
 
 ### Other combinations tested
