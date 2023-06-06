@@ -4,15 +4,30 @@
 
 ## Classification of Adverse Events
 The files in this ptojct presents the code for the best performing Multinominal Naive Bayes and Support Vector Machine models, as presented in the thesis. 
+The final models are found in files [name] and [name]. The dataset used have been exluded due to privacy and ethical reasons. The results are still shown in the files.  
 
-As presented in the thesis several combinations of preprocessing have been tested to acheive the best results. 
 
-### Stopword removal
-When applying stopword removal and not Stemming, the stopword removal have been achieved using the stop_words parameter in the vectorizers. The list of Norwegian stopwords were extreacted from the Python library Natural Language Toolkit. When applying stopword removal and stemming the stopwords are removed before stemming. It is then done as follows: 
-(lim inn kodesnutt)
 
-### Stemming
 
-### Feature extraction
 
-### Feature Selection
+### Other combinations tested
+As presented in the thesis several combinations of preprocessing have been tested to acheive the best results. The code for other combinations than the ones evaluated in the thesis are not included, but please contact us if interested. 
+
+The necessary imports used to test all combinations are as follows: 
+
+````
+import pandas as pd
+import nltk as nltk
+from nltk.corpus import stopwords
+from nltk.stem.snowball import NorwegianStemmer
+from nltk.tokenize import word_tokenize
+from nltk.tokenize.treebank import TreebankWordDetokenizer
+from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from sklearn.feature_selection import SelectPercentile, chi2, f_classif, mutual_info_classif
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import MultinomialNB, ComplementNB, BernoulliNB
+from sklearn import svm
+import re
+from sklearn import preprocessing
+from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, ConfusionMatrixDisplay, recall_score, precision_score, classification_report
+```
