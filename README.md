@@ -1,6 +1,7 @@
 # Adverse-Event-Classification
 
 ## EDA 
+The code used for the EDA can be found in the file ```EDA.ipynb```. 
 
 ## Classification of Adverse Events
 The files in this projcet presents the code for the best performing Multinominal Naive Bayes and Support Vector Machine models, as presented in the thesis. 
