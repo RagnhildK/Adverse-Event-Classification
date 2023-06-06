@@ -8,8 +8,7 @@ The files in this ptojct presents the code for the best performing Multinominal 
 As presented in the thesis several combinations of preprocessing have been tested to acheive the best results. 
 
 ### Stopword removal
-When applying stopword removal and not Stemming, the stopword removal have been achieved using the stop_words parameter in the vectorizers. (skriv hvor vi har stopordlisten fra)
-When applying stopword removal and stemming the stopwords are removed before stemming. It is then done as follows: 
+When applying stopword removal and not Stemming, the stopword removal have been achieved using the stop_words parameter in the vectorizers. The list of Norwegian stopwords were extreacted from the Python library Natural Language Toolkit. When applying stopword removal and stemming the stopwords are removed before stemming. It is then done as follows: 
 (lim inn kodesnutt)
 
 ### Stemming
