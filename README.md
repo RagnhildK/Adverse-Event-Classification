@@ -1,11 +1,11 @@
 # Adverse-Event-Classification
-
+This repository is a part of a master's thesis conducted by Ragnhild Kleiven and Solveig Hergot Langås during the spring of 2023. 
 ## EDA 
 The code used for the EDA can be found in the file ```EDA.ipynb```. 
 
 ## Classification of Adverse Events
 The files in this projcet presents the code for the best performing Multinominal Naive Bayes and Support Vector Machine models, as presented in the thesis. 
-The final models are found in files ```final_mnb.ipynb``` and ```final_svm.ipynb```. The dataset used have been exluded due to privacy and ethical reasons. The results are still shown in the files.  
+The final models are found in files ```final-mnb.ipynb``` and ```final-svm.ipynb```. The dataset used have been exluded due to privacy and ethical reasons. The results are still shown in the files.  
 
 
 ### Other combinations tested
